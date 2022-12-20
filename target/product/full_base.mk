@@ -41,8 +41,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
-# Put en_US first in the list, so make it default.
-PRODUCT_LOCALES := en_US
+# Put in_ID first in the list, so make it default.
+PRODUCT_LOCALES := in_ID
 
 # Get some sounds
 $(call inherit-product-if-exists, frameworks/base/data/sounds/GoogleAudio.mk)
